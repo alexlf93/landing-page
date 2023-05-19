@@ -164,14 +164,13 @@ h1 {
   width: 929px;
 }
 
-
 /*ANIMACION DE IMAGEN*/
 
-.phone-image img:hover{
-transform: scale(1.2);
-transition: all 0.1s;
+.phone-image img:hover {
+  transform: scale(1.2);
+  transition: all 0.1s;
 }
-
+/*-------------------*/
 .container-icons-middle {
   display: flex;
   justify-content: space-evenly;
@@ -508,7 +507,7 @@ transition: all 0.1s;
 
 .bottom-phone-section {
   padding-top: 8rem;
-  
+
   background-color: #f7fafd;
   text-align: center;
 }
@@ -521,7 +520,6 @@ transition: all 0.1s;
 .bottom-phone-divimage img {
   width: 929px;
 }
-
 
 .p-div {
   width: 51rem;
@@ -537,37 +535,35 @@ transition: all 0.1s;
 
 /*FOOTER*/
 
-.footer1{
+.footer1 {
   display: flex;
   justify-content: space-around;
   padding-top: 4rem;
-padding-bottom: 1rem;
-border-top: 1px solid #c8d4d6;
-background-color: #f7fafd;
-color: #777;
-font-weight: 400;
-font-size: 1rem;
-line-height: 1.75rem;
-font-family: "Open Sans", sans-serif;
-
+  padding-bottom: 1rem;
+  border-top: 1px solid #c8d4d6;
+  background-color: #f7fafd;
+  color: #777;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-family: "Open Sans", sans-serif;
 }
 
-h5{
+h5 {
   font-weight: 700;
   font-size: 1.125rem;
-line-height: 1.625rem;
+  line-height: 1.625rem;
 }
-.footer-div ul{
+.footer-div ul {
   list-style: none;
   text-align: left;
-  
 }
 
-.div-icons ul{
+.div-icons ul {
   display: flex;
 }
 
-.div-icons ul li{
+.div-icons ul li {
   width: 50px;
   height: 50px;
   flex-direction: column;
@@ -576,29 +572,28 @@ line-height: 1.625rem;
   margin-left: 10px;
 }
 
-.footer-svg{
-width: 14px;
-height: 20px;
-margin-right: 10px;
-fill: #777;
-
+.footer-svg {
+  width: 14px;
+  height: 20px;
+  margin-right: 10px;
+  fill: #777;
 }
 
-.footer-icon{
+.footer-icon {
   padding-left: 10px;
   padding-top: 3px;
   width: 30px;
 }
 
-.copyright{
+.copyright {
   display: flex;
   justify-content: center;
 }
 
-.copyright p{
+.copyright p {
   color: #999;
   font-weight: 400;
   font-size: 0.875rem;
-line-height: 1.5rem;
-font-family: "Open Sans", sans-serif;
+  line-height: 1.5rem;
+  font-family: "Open Sans", sans-serif;
 }
